@@ -1,0 +1,36 @@
+# Ignore the generated files
+/generated/
+/var/
+/pub/static/
+/pub/media/
+
+# Magento environment-specific files
+/app/etc/env.php
+/app/etc/config.php
+
+# Ignore the vendor directory (Composer dependencies)
+/vendor/
+
+# Ignore Composer's lock file (optional, typically not recommended)
+/composer.lock
+
+# System-specific files (IDE configurations, OS files)
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Ignore the .git directory itself (in case of submodules)
+.git/
+
+# Ignore sensitive keys (e.g., API keys)
+*.key
+*.pem
+*.crt
+
+# Ignore PHPUnit configuration (optional)
+phpunit.xml
+
+# Ignore other potential temporary files (optional)
+*.swp
+*.bak
